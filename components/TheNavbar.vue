@@ -1,5 +1,5 @@
 <template>
-  <BNavbar class="rounded mt-3">
+  <BNavbar class="rounded">
     <BRow align-v="center w-100">
       <BCol lg="4">
         <BImg

@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4b61274-00d5-4bc9-9836-92ac70c9499f" name="Changes" comment="feat: create project with vue 2">
-      <change afterPath="$PROJECT_DIR$/assets/s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/TheNavbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+    <list default="true" id="a4b61274-00d5-4bc9-9836-92ac70c9499f" name="Changes" comment="feat: add the nav bar component">
+      <change afterPath="$PROJECT_DIR$/assets/animations/laptop.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TheBody.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NuxtLogo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Tutorial.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TheNavbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/TheNavbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,22 +36,26 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;P:/my-portfolio/pages&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;vuejs.nuxt.types-notification-shown&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "P:/my-portfolio/pages",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.jsonOptions",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true",
+    "vuejs.nuxt.types-notification-shown": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="P:\my-portfolio\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\my-portfolio\assets\animations" />
       <recent name="P:\my-portfolio" />
     </key>
   </component>
@@ -86,7 +89,7 @@
       <workItem from="1677876586419" duration="1167000" />
       <workItem from="1677877921780" duration="359000" />
       <workItem from="1677889756999" duration="11228000" />
-      <workItem from="1677963305056" duration="9514000" />
+      <workItem from="1677963305056" duration="14616000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create project">
       <created>1677877558991</created>
@@ -109,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677964905007</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add the nav bar component">
+      <created>1677977838222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677977838222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: create project" />
     <MESSAGE value="feat: create project with vue 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create project with vue 2" />
+    <MESSAGE value="feat: add the nav bar component" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add the nav bar component" />
   </component>
 </project>
