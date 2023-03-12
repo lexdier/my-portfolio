@@ -1,15 +1,27 @@
 <template>
-  <BNavbar sticky class="">
+  <BNavbar sticky style="background-color: whitesmoke">
     <BContainer>
       <BRow align-v="center" class="w-100">
         <BCol cols="7">
-          <span>Logo</span>
+          <BImg width="70" src="https://cdn-icons-png.flaticon.com/512/57/57062.png" alt="" />
         </BCol>
-        <BCol cols="auto">
+        <BCol cols="5">
           <BNavbarNav>
-            <BNavItem>Some</BNavItem>
-            <BNavItem>Some</BNavItem>
-            <BNavItem>Some</BNavItem>
+            <BNavItem>
+              <span class="text-dark text-uppercase">
+                Some
+              </span>
+            </BNavItem>
+            <BNavItem>
+              <span class="text-dark text-uppercase">
+                Some
+              </span>
+            </BNavItem>
+            <BNavItem>
+              <span class="text-dark text-uppercase">
+                Some
+              </span>
+            </BNavItem>
           </BNavbarNav>
         </BCol>
       </BRow>

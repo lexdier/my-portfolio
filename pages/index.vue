@@ -1,8 +1,6 @@
 <template>
   <BContainer>
-    <section>
-      <TheBody />
-    </section>
+    <TheBody />
   </BContainer>
 </template>
 
