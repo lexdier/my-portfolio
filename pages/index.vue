@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <TheBody />
-  </div>
+  <BContainer>
+    <section>
+      <TheBody />
+    </section>
+  </BContainer>
 </template>
 
 <script lang="ts">

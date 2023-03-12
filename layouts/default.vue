@@ -1,7 +1,7 @@
 <template>
-  <BContainer>
+  <div>
   <TheNavbar />
     <Nuxt />
-  </BContainer>
+  </div>
 </template>
 
